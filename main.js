@@ -1,1 +1,1 @@
-console.log("Here is the first step of my project!!")
+console.log("Here is the first step of my project!")
