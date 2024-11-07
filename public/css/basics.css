@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+header {
+    margin:35px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #1e2633;
+    color: #FEFEFE;
+    font-size: larger;
+    margin: 0;
+}
+
+nav {
+    display: flow-root;
+    width: 100%;
+    background-color: black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+    background-color: #2c2a2a;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FEFEFE;
+}
+
+nav a:hover {
+    color: #FEFEFE;
+}
+
+h1 {
+    clear: both;
+    text-align: center;
+}
+
+a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+main {
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #223c61;
+    max-width: 800px;
+    color: #FEFEFE;
+    margin: auto;
+    margin-top: 2rem;
+   
+}
+
+form {
+    border-radius: 1rem; /* Rounded corners */
+    background-color: #223c61; /* Blue background */
+    padding: 2rem; /* Space inside the form */
+    color: #FEFEFE; /* White text */
+}
+
+form input,
+form select {
+    background-color: #2c3e50; /* Dark background for inputs/selects */
+    color: #FEFEFE; /* White text */
+    border-radius: 0.5rem; /* Rounded corners for inputs/selects */
+    border: 1px solid #00ADB5; /* Border for inputs/selects */
+}
+
+form button {
+    background-color: #00ADB5; /* Blue button */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+form button:hover {
+    background-color: #008c91; /* Darker blue on hover */
+}
